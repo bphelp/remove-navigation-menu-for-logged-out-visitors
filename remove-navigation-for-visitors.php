@@ -11,7 +11,7 @@ Author: @bphelp
 Author URI: http://www.wordpress.com
 */
 
-/* Prevent logged out users from accessing the search form */
+/* Prevent logged out users from accessing the navigation menu */
 function bphelp_remove_nav_menu_for_logged_out_visitors() {
 	if ( ! is_user_logged_in() ) {
 ?> 
